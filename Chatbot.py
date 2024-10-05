@@ -124,7 +124,7 @@ if input_prompt:
             time.sleep(0.0001)
             
             message_placeholder.markdown(full_response+" ▌")
-        st.button('Reset Chat 🗑️', on_click=reset_conversation)
+        # st.button('Reset Chat 🗑️', on_click=reset_conversation)
 
     st.session_state.messages.append({"role":"assistant","content":result["answer"]})
 
