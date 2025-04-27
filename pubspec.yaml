@@ -1,0 +1,54 @@
+name: legal_awareness_app
+description: Digital Assistance for Legal Awareness and the Development of a KYR (Know-Your-Rights) Framework in India.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  
+  # Alternative to file_picker
+  file_selector: ^1.0.1
+  
+  # Other dependencies
+  http: ^1.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  
+  
+  url_launcher: ^6.2.1
+  shared_preferences: ^2.2.2
+  speech_to_text: ^7.0.0  # Use the latest version
+  flutter_tts: ^4.2.2     # Use the latest version
+  flutter_pdfview: ^1.4.0
+  file_picker: ^9.2.1 
+  flutter_dotenv: ^5.1.0
+  google_generative_ai: ^0.2.0
+
+  
+  geolocator: ^10.0.0 # For finding nearby courts
+  intl: ^0.18.0       # For date formatting
+  
+  
+ 
+ 
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/legal_resources/
+    - .env
