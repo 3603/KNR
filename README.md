@@ -1,4 +1,5 @@
-# legal_awareness_app
+# KNOW YOUR RIGHTS (KNR):
+#DIGITAL LEGAL ASSISTANT
 
 A new Flutter project.
 
